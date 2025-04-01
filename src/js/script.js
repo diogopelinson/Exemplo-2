@@ -47,9 +47,51 @@ console.log(parseFloat(numString));
 let numFloat1 = 552.19;
 console.log(numFloat1.toString());
 
-
 let numInt = 100;
 console.log(numInt.toString());
+
+//METODOS - PARTE !
+
+//LENGTH - VERIFICA O TAMANHO DA STRING
+
+let frase = "O mundo da tecnologia";
+console.log(frase.length)
+
+//indexOf - retorna um trecho de um texto
+
+let texto = "Programação Sustentavel";
+console.log(texto.indexOf("a"));
+
+//slice - retorna parte de um texto apontado
+
+let info = "Processamento de ponta";
+console.log(info.slice(0,13))
+
+//Operadores Aritiméticos
+
+const num1 = 10;
+const num2 = 5;
+
+console.log(num1 + num2);
+console.log(num1 - num2);
+console.log(num1 * num2);
+console.log(num1 / num2);
+
+
+// OPERADORES LOGICOS
+
+const num3 = 20;
+const num4 = 30;
+
+console.log(num3 < num4);
+console.log(num3 > num4);
+console.log(num3 < num4 && num4 < 50);
+console.log(num3 > num4 || num4 > num3);
+console.log(num4 == num4 || num4 > num3);
+
+
+
+
 
 
 
