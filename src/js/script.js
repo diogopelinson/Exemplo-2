@@ -140,10 +140,74 @@
 
 //CONDIÇÂO TERNARIA
 
-let valor2 = 301;
+// let valor2 = 301;
 
-let resultado = valor2 == 300 ? "Certo": "Errado";
-console.log(resultado)
+// let resultado = valor2 == 300 ? "Certo": "Errado";
+// console.log(resultado)
+
+//SWITCH CASE
+
+// let time = "Corinthians";
+
+// switch(time){
+//  case "Corinthians":
+//         console.log("Melhor time")
+//         break;
+//     case "São Paulo":
+//         console.log("Pior time do universo");
+//         break;
+//     case "Palmeiras":
+//         console.log("Não tem mundial");
+//         break;
+//     default:
+//         console.log("Nenhuma das opções")
+// }
+
+//ESTRUTURA DE LAÇO DE REPETIÇÂO
+
+// for(let i=0;i<10;i++){
+//     console.log("O valor de I é:", i)
+// }
+
+//WHILE
+
+let w = 0;
+
+while(w <= 10){
+    console.log("O valor de w é", w)
+    w++;
+}
+
+
+//DO WHILE
+
+let z= 10;
+
+do{
+    console.log(" do while é", z)
+    z++;
+}while(z <= 100)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
